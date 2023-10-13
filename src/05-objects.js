@@ -28,7 +28,7 @@ function createPersonObject() {
  * // personName will be 'John Doe'
  */
 function getPersonName(person) {
-    getPersonName.name;
+    return person.name;
 }
 
 

@@ -8,6 +8,11 @@
  * Usage:
  * const message = generateMessage("Jack", 25); // message will be "Hey Jack, at 25, you are in the prime of your life!"
  */
+function generateMessage(name, age) {
+    return "Hey " + name + ", at " + age + ", you are in the prime of your life!";
+}
+const message = generateMessage("Jack", 25);
+console.log(message);
 
 
 /**
@@ -31,6 +36,7 @@
  * Usage:
  * const sum = sumOfRange(1, 4); // sum will be 10
  */
+function sumArray(start,end) {}
 
 
 

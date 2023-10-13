@@ -8,7 +8,12 @@
  * // person might be { name: 'John Doe', age: 30, city: 'New York' }
  */
 function createPersonObject() {
-    
+    const person = {
+        name: " ",
+        age: 0,
+        city: " ",
+    }
+    return person;
 }
 
 
@@ -23,7 +28,7 @@ function createPersonObject() {
  * // personName will be 'John Doe'
  */
 function getPersonName(person) {
-
+    getPersonName.name;
 }
 
 
@@ -37,10 +42,14 @@ function getPersonName(person) {
  * Usage:
  * const john = findPersonByName([{ name: 'John Doe', age: 30 }, { name: 'Jane Doe', age: 25 }], 'John Doe');
  * console.log(john); // Outputs { name: 'John Doe', age: 30 }
- *
- */
+ **/
 function findPersonByName(persons, name) {
-
+        for (let i = 0; i < persons.length; i++) {
+            if (persons[i].name === name) {
+                return persons[i]; // Return the book object if the author matches
+            }
+        }
+        return null; // Return null if the author is not found in any book
 }
 
 
@@ -55,5 +64,8 @@ function findPersonByName(persons, name) {
  * // totalAge will be 55
  */
 function getTotalAge(persons) {
-
+    const totalAge = {
+        name: " ",
+        age: 0,
+    }
 }

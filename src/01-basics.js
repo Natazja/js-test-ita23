@@ -8,8 +8,9 @@
  * console.log(coolestTeacher); // Benjamin
  */
 function getCoolestTeacher() {
-
+    return ("Benjamin");
 }
+
 
 /**
  * This function multiplies two numbers and then adds a third number.
@@ -24,7 +25,7 @@ function getCoolestTeacher() {
  * const anotherResult = multiplyAndAdd(-1, 1, 2); // anotherResult will be 1
  */
 function multiplyAndAdd(a, b, c) {
-
+    return ((a * b) + c);
 }
 
 /**
@@ -38,7 +39,10 @@ function multiplyAndAdd(a, b, c) {
  * const anotherResult = determineType(42); // anotherResult will be "number"
  */
 function determineType(value) {
-
+    if (" ")
+        return "string"
+    if (typeof value === Number)
+        return "number"
 }
 
 /**
@@ -53,7 +57,7 @@ function determineType(value) {
  */
 
 function concatenateStringsWithSpace(a, b) {
-
+    return a + " " + b;
 }
 
 
@@ -71,6 +75,8 @@ function concatenateStringsWithSpace(a, b) {
  */
 
 function toUpperCaseWithSmiley(str) {
-    
+    return str
+        .replace(/([a-z])([A-Z])/g, '$1-$2')
+        .toUpperCase() + (":)")
 }
 
